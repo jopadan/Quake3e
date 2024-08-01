@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd `dirname $0`
-if [ ! -f Makefile ]; then
+if [ ! -f Makefile.unix ]; then
 	echo "This script must be run from the quake3e build directory"
 	exit 1
 fi

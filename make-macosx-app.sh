@@ -195,7 +195,7 @@ done
 # final preparations and checks before attempting to make the application bundle
 cd `dirname $0`
 
-if [ ! -f Makefile ]; then
+if [ ! -f Makefile.unix ]; then
 	echo "$0 must be run from the quake3e build directory"
 	exit 1
 fi
